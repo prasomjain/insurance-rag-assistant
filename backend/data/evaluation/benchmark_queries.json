@@ -1,0 +1,22 @@
+[
+  {
+    "query": "Why was claim CLM-10045 denied?",
+    "ground_truth": "The claim was denied because the denial reason in the claim record indicates a policy or authorization issue."
+  },
+  {
+    "query": "Show all denied diabetes claims",
+    "ground_truth": "Denied diabetes claims are claim records where status is Denied and diagnosis code maps to diabetes."
+  },
+  {
+    "query": "Coverage status for patient John Doe",
+    "ground_truth": "Coverage status requires checking the claims for patient John Doe and reading each claim status."
+  },
+  {
+    "query": "List denied claims with prior authorization missing",
+    "ground_truth": "These are denied claims where denial reason is Prior Authorization Missing."
+  },
+  {
+    "query": "What are the highest amount denied claims?",
+    "ground_truth": "The highest amount denied claims are sorted denied claim records by amount in descending order."
+  }
+]
